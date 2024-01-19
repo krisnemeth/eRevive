@@ -1,0 +1,147 @@
+//defining main color variables
+$primary: #274029;
+$secondary: #A2A685;
+$tertiary: #D9D7BA;
+
+//general styles
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    // background-color: $tertiary ;
+}
+
+//font styles
+
+h1{
+    color: $primary;
+    font-weight: 800;
+} 
+
+h5 {
+    line-height: 1.5em;
+}
+
+h3 {
+    color: $primary;
+    font-weight: 900;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+//image styles
+img {
+    width: 100%;
+}
+
+.preview {
+    width: 250px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.text-green {
+    color: $primary;
+}
+
+// button styles
+
+.btn-green {
+    background-color: $primary;
+    color: #fff;
+    margin-left: 35px;
+    margin-right: 35px;
+    &:hover {
+        color: $secondary;
+    }
+}
+
+// nav styles
+.nav-bg {
+    background-color: $primary;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 28px;
+}
+
+//footer styles
+
+footer {
+    background-color: $primary;
+}
+
+ul li {
+    display: inline;
+}
+
+//form styles
+
+form label {
+    color: $primary;
+    font-weight: 500;
+}
+
+//button links
+
+a.link {
+    color: $secondary;
+    font-weight: 900;
+    text-decoration: none;
+    &:hover {
+        color: $primary;
+    }
+}
+
+//card styles
+.prod_title {
+    color: $primary;
+    font-weight: 900;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.rows {
+    color: $secondary;
+    font-weight: 900;
+}
+
+.price {
+    font-size: 26px;
+    color: $primary;
+    font-weight: 900;
+}
+
+// full size header with text
+
+.header {
+    position: relative;
+    background: rgb(39,64,41);
+    background: linear-gradient(180deg, $primary 0%, $tertiary 100%);
+    height: 55vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-container {
+    position: relative;
+    z-index: 2;
+}
+
+// icons
+
+.bi-exclamation-triangle {
+    font-size: 1000%;
+}
+
+.bi-check-circle {
+    font-size: 1000%;
+}
+
